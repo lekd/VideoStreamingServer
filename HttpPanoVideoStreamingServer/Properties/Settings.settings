@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HttpPanoVideoStreamingServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Pano_Crop_Left" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Pano_Crop_Top" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.3</Value>
+    </Setting>
+    <Setting Name="Pano_Crop_Width" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Pano_Crop_Height" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.25</Value>
+    </Setting>
+    <Setting Name="Table_Crop_Left" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.3</Value>
+    </Setting>
+    <Setting Name="Table_Crop_Top" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Table_Crop_Width" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.4</Value>
+    </Setting>
+    <Setting Name="Table_Crop_Height" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Pano_Port" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4030</Value>
+    </Setting>
+    <Setting Name="TableVideo_Port" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4031</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
