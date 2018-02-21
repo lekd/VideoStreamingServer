@@ -23,8 +23,8 @@
             <ColumnDefinition Width="0.3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <ComboBox x:Name="cbTableCam" Grid.Row="0" Grid.Column="1" Background="Black" VerticalAlignment="Bottom" Margin="40, 0, 40, 0"></ComboBox>
-        <Image x:Name="panoDisplayer" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Margin="0 40 0 0"/>
-        <Image x:Name="tableDisplayer" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Margin="0 40 0 20"/>
+        <Image x:Name="panoDisplayer" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Margin="10, 40, 5, 0"/>
+        <Image x:Name="tableDisplayer" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Margin="5, 40, 10, 20"/>
         <Button x:Name="btnStartStop" Grid.Row="2" Grid.Column="1" Width="100" 
                 VerticalAlignment="Top" Margin="0 0 20 0"
                 HorizontalAlignment="Right" Click="btnStartStop_Click" >Stream</Button>

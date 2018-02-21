@@ -87,6 +87,7 @@ namespace HttpPanoVideoStreamingServer
             }
             else
             {
+                frameBmp.RotateFlip(RotateFlipType.Rotate270FlipNone);
                 Action displayaction = delegate
                 {
                     BitmapImage imgSrc = Utilities.ToBitmapImage(frameBmp, ImageFormat.Jpeg);

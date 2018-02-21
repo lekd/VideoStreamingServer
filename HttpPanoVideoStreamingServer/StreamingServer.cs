@@ -96,7 +96,7 @@ namespace HttpPanoVideoStreamingServer
 
                 System.Diagnostics.Debug.WriteLine(string.Format("Server started on port {0}.", state));
 
-                foreach (Socket client in this.IncommingConnections())
+                foreach (Socket client in getCommingConnections())
                     ThreadPool.QueueUserWorkItem(new WaitCallback(ClientThread), client);
 
             }
@@ -106,6 +106,16 @@ namespace HttpPanoVideoStreamingServer
             }
 
             this.Stop();
+        }
+        IEnumerable<Socket> getCommingConnections()
+        {
+            while (this.IsRunning)
+            {
+
+                yield return this.Server?.Accept();
+            }
+            //server.Server?.Close();
+            yield break;
         }
         private void ClientThread(object client)
         {

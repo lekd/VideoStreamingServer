@@ -61,7 +61,7 @@ namespace HttpPanoVideoStreamingServer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0.3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public float Table_Crop_Left {
             get {
                 return ((float)(this["Table_Crop_Left"]));
@@ -70,7 +70,7 @@ namespace HttpPanoVideoStreamingServer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.2")]
         public float Table_Crop_Top {
             get {
                 return ((float)(this["Table_Crop_Top"]));
@@ -79,7 +79,7 @@ namespace HttpPanoVideoStreamingServer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0.4")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.9")]
         public float Table_Crop_Width {
             get {
                 return ((float)(this["Table_Crop_Width"]));
@@ -88,7 +88,7 @@ namespace HttpPanoVideoStreamingServer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.6")]
         public float Table_Crop_Height {
             get {
                 return ((float)(this["Table_Crop_Height"]));
